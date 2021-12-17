@@ -97,51 +97,53 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 ####  Features included:
 1. Navigation bar
 
-	The navigation bar features logo on the left-hand side and navigation links on the right-hand side. On mobile devices the logo collapses into hamburger menu.
+	The navigation bar features logo on the left-hand side and navigation links on the right-hand side.
 
 	Navigation bar elements:
 	- Logo - always links back to the _Home_ page
-	- About
-	- Classes
-	- Shop
-	- Contact
+	- About - links to _About_ page
+	- Classes - links to _Classes_ page
+	- Shop - links to the e-commerce _Shop_ page
+	- Contact - links to _Contact_ page
+	- Account - has hidden on click dropdown menu with links:
+		- Sign up - visible for non-logged in user
+		- Login - visible for non-logged in user
+		- My Profile - visible for logged in user
+		- Logout - visible for logged in user
+		- Products - visible for admin user
+
+	- Join now - links to page with all membership options
+	- Bag total - displays current shopping bag value
 	
-Navigation links have _underline from center_ hover effect taken from Hover.css website (see [Credits/ Code section](#code)).
-There is no effect for active navigation link, I decided that the headline of the header banner was sufficient to indicate the page that the visitor was in.
-Hover effect on links on the other hand was important from the perspective of good UX.
+	Navigation links have _underline from center_ hover effect taken from Hover.css website (see [Credits/ Code section](#code)).
+	There is no effect for active navigation link, the headline of the header banner is sufficient to indicate the page that the user is in.
 
-The Navigation bar's position is fixed to allow for quick navigation between pages and to avoid using _back to top_ button.
-The bar's opacity is set to 75% (0.75), so that any content that might be obscured by it can be still visible (or at least possible to make out).
-
-For narrow screens/ viewport sizes, the navigation links change from inline to stacked formation.
-
-<img src="assets/images_readme/ms1-readme-features-navbardesktop.png" alt="Anaconda MAA website navbar on desktops">
-
-<img src="assets/images_readme/ms1-readme-features-navbarphone.png" alt="Anaconda MAA website navbar on phone">
+	The Navigation bar's position is fixed to allow for quick navigation between pages.
 	
-### Footer
-The footer contains information (starting from the left):
-- Logo - a black & white reversed version; appears right beside contact details (where it would be normally expected) but only on the widest screen size (over 1400px) as the space allows for it.
-The logo disappears on the smaller screen/ viewport sizes to allow for other elements of the footer to create a nicer and more organised structure.
-Because the logo is also always present on the screen in the fixed position Navbar, the disappearance of the logo from the footer is not really an issue.
-- Contact details - a physical address, phone number and email address of the business.
-- Opening times
-- Navigation links - stacked in a column, links are repeated for an added comfort of browsing between pages without having to move mouse to the top of the screen.
-This also gives visitors a total view of all pages that the website has.
-- Social media links - links to Twitter, Pinterest, Facebook, Instagram and Youtube will have to be linked later to the business' actual pages in the respective channels.
+	On mobile devices the logo collapses into hamburger menu.
 
-<img src="assets/images_readme/ms1-readme-features-footerdesktop.png" alt="Anaconda MAA website footer on desktops">
+	<img src="assets/images_readme/ms1-readme-features-navbardesktop.png" alt="Anaconda MAA website navbar on desktops">
 
-<img src="assets/images_readme/ms1-readme-features-footerphone.png" alt="Anaconda MAA website footer on phone">
+	<img src="assets/images_readme/ms1-readme-features-navbarphone.png" alt="Anaconda MAA website navbar on phone">
+	
+<br>
 
-### 'Join Academy' call to action button
-The business owner has asked to have a prominent and distinctive __'Join Our Academy'__ button repeated in few places across the whole website, on all or almost all of the pages.
-The button also appears as __'Get Started'__ in the _Membership Prices_ section of the _Times & Prices_ page, it links at the moment to the contact form in _Contact_ page, but in the future the owner would like at least for the __'Get Started'__ button to link to the online payment feature of the website.
-At the moment payments need to be processed over the phone or at the Academy. The button should always be accompanied by the invitation to 'take a free trial class'. 
+2. Footer
 
-<img src="assets/images_readme/ms1-readme-features-joinacademy.png" alt="Anaconda MAA website join the academy call to action button">
+	The footer contains following information:
+	- Logo	
+	- Contact details - academy's location, phone number and email address
+	- Opening times
+	- Navigation links - stacked in a column, same navigation links as in navigation bar
+	- Social media links - links to Twitter, Pinterest, Facebook, Instagram and Youtube will have to be linked later to the academy's' actual pages in the respective channels.
 
-### Home Page
+	<img src="assets/images_readme/ms1-readme-features-footerdesktop.png" alt="Anaconda MAA website footer on desktops">
+
+	<img src="assets/images_readme/ms1-readme-features-footerphone.png" alt="Anaconda MAA website footer on phone">
+
+<br>
+
+3. Home Page
 The _Home_ page features a big welcome banner showing an image of one of the classes at the Academy with the big headline and call to action to join the Academy at the center of it.
 Below is the quick overview of disciplines that the Academy offers classes in: Brazilian Jiu-Jitsu, Kickboxing and Boxing, and an invitation to read more about them (each discipline links to a specific related section of the _About_ page).
 Returning to the _Home_ page is only possible via clicking on the logo or the navigation link in the footer.
