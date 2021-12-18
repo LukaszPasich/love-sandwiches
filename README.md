@@ -143,7 +143,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 <br>
 
-3. Home Page
+3. Home page
 
 	The _Home_ page features a main banner with headline and call to action button to join the Academy. Below the banner is the quick overview of disciplines that the Academy offers classes in: Brazilian Jiu-Jitsu, Kickboxing and Boxing, and an invitation to read more about them on the _About_ page.
 
@@ -151,7 +151,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 <br>
 
-4. About Page
+4. About page
 
 	The _About_ page, features the main banner on top and below contains couple of paragraphs about Anaconda Martial Arts Academy followed by a small section devoted to each of the martial arts disciplines taught in the school and ending with information about the instructors.
 
@@ -159,73 +159,61 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 	<img src="assets/images_readme/ms1-readme-features-about.png" alt="Anaconda MAA website - About page">
 
-### Classes Page
-The _Classes_ page, apart from the main banner, features sections explaining division of classes into different age and skill level groups.
-Two sections - Kids & Teens Classes and Adults Classes - have each a responsive diagram of different age/skill levels per discipline and also __'Join Our Academy'__ call to action button and an additional link to the Classes Schedule in the _Times & Prices_ page.
-This makes the user flow of checking the suitable age group/ skill level and immediately finding out the times for the suitable classes more fluent.
+<br>
 
-<img src="assets/images_readme/ms1-readme-features-classes.png" alt="Anaconda MAA website - Classes page">
+5. Classes page
 
-### Times and Prices Page
-This pages' main section is a diagram of (nearly) full week (Monday to Saturday), with classes put in the appropriate day of the week by hour slots - 6 day columns by 8 hour rows.
-This diagram presented a bit of a challenge for the responsive design. The full week diagram (6 columns and 8 rows ) can be displayed only on wide screen sizes.
-Once the screen/ viewport size goes below 992px (Bootstrap's grid column large screen size breakpoint), the day columns get stacked on top of each other and empty hour slots (no class taking place at that time) also disappear.
-There is a possibility here for future development, creating a filter that highlights only and all classes in the category determined by the filter.
+	The _Classes_ page, apart from the main banner, features two sections (Kids & Teens Classes and Adults Classes) explaining division of classes into different age and skill level groups. There is also __'Join Our Academy'__ call to action button and an additional link to the Class Timetable with each section. The Class Timetable is the last section on this page.
 
-<img src="assets/images_readme/ms1-readme-features-times.png" alt="Anaconda MAA website - Times & Prices page">
+	<img src="assets/images_readme/ms1-readme-features-classes.png" alt="Anaconda MAA website - Classes page">
 
+<br>
 
-The bottom section of the _Times & Prices_ page is 4 boxes representing different membership options, one of them had to be a distinctive looking offer of a free introductory class.
+6. Contact page
+
+	The _Contact_ page contains Contact Form to send email to the academy.
+
+	(! email currenty not setup)
+
+	<img src="assets/images_readme/ms1-readme-features-contact.png" alt="Anaconda MAA website - Contact page">
+
+<br>
+
+7. Contact Form
+
+	Contact form contains below fields (* is required):
+	- Name *
+	- Email address *
+	- Phone number
+	- The message *
+	
+	(! the online form is not connected to email or any back-end support at the moment)
+
+	---
+	__NOTE:__
+
+	__! The website should not be deployed in the custom hosted environment before the online query form back-end functionality is added.
+	If deploying before, the appropriate disclaimer information should be added beside the form or the form should be removed (commented out) for the time being !__
+	
+	---
+
+	<img src="assets/images_readme/ms1-readme-features-contactform.png" alt="Anaconda MAA website - Contact page online query form">
+
+<br>
+
+8. Membership page
+
+	The _Membership_ page is accessed via __Join Now__ button in the navbar or __Join Our Academy__ call to action button 
+
+4 boxes representing different membership options, one of them had to be a distinctive looking offer of a free introductory class.
 Each box has a 'Get Started' button that links to _Contact_ page at the moment, expecting visitors to get in touch with the academy through contact channels given on that page in order to sign up and pay for membership.
 In the future, the academy owner would like this button to link directly to online sign up and payment feature. 
 
 <img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
 
-### Coaches Page
-The _Coaches_ page, offers short bios on three academy instructors, each of the instructors is a specialist in one of the three martial arts taught in the academy.
-The link from each instructor to the corresponding martial art description on _About_ page (and the link back from a martial art to the corresponding instructor) create an easy user flow where visitors by checking the info about the martial art can quickly find out who is teaching it (and vice-versa).
-There are 'About (Discipline)...' obvious links created with hover effects, but there are also same links created on the red names of each discipline (no hover effect), underneath the names of instructors. I decided to turn those red names into links, when I realised that I felt like clicking on those words in my own user testing.
 
-<img src="assets/images_readme/ms1-readme-features-coaches.png" alt="Anaconda MAA website - Coaches page">
 
-### Contact Page
-The _Contact_ page is a destination page for all the __'Join Our Academy'__ call to action buttons.
-It contains the two main features:
-- Contact Form
-- Google Maps Location Map
 
-<img src="assets/images_readme/ms1-readme-features-contact.png" alt="Anaconda MAA website - Contact page">
-
-### Contact Form
-The business owner expects the following entries in the contact form:
-- Radio buttons to state one of the three reasons for getting in touch with the Academy (in order to be able to prioritise potential new members over general queries in times of high volume of incoming messages):
-	- Book free trial class
-	- Membership queries
-	- General queries
-- Name
-- Email address
-- Phone number
-- The message
-
-All entry fields except for the phone number are required in order to submit the query.
-
-The online form is not connected to email or any back-end support at the moment (due to unskilled developer).
-The 'Submit' button takes the visitor to another page, confirming (unjustifiably) the receipt of the email by the academy and making (baseless) promise of the prompt response.
-Completing the back-end support for the form would be an urgent priority needed very soon.
-In fact it would be probably problematic to release the website with not functional online form.
-
-__NOTE:__
-
-__! The website should not be deployed in the custom hosted environment before the online query form back-end functionality is added.
-If deploying before, the appropriate disclaimer information should be added beside the form or the form should be removed (commented out) for the time being !__
-
-<img src="assets/images_readme/ms1-readme-features-contactform.png" alt="Anaconda MAA website - Contact page online query form">
-
-### Google Maps Location Map
-The map feature at the moment is an embedded \<iframe>, code generated on [www.maps.ie](https://www.maps.ie/create-google-map/) website and doesn't include the business marker yet.
-The proper map with the location marker will have to be added in the next round of development (requires JavaScript and API technologies is what I'm hearing).
-
-<img src="assets/images_readme/ms1-readme-features-map.png" alt="Anaconda MAA website - Contact page google maps">
 
 ### Favicon
 Favicon won't let the the Anaconda MAA website get lost in the sea of open web browser tabs.
