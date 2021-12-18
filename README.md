@@ -181,7 +181,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 7. Contact Form
 
-	Contact form contains below fields (* is required):
+	Contact form contains below fields (* fields are required):
 	- Name *
 	- Email address *
 	- Phone number
@@ -203,13 +203,50 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 8. Membership page
 
-	The _Membership_ page is accessed via __Join Now__ button in the navbar or __Join Our Academy__ call to action button 
+	The _Membership_ page is accessed via __Join Now__ button in the navbar or __Join Our Academy__ call to action button anywhere else in the website. The page has 4 boxes representing different membership options, one of them is a distinctive looking offer of a free introductory class. Each box has a __Get Started__ button that links to _Contact_ page at the moment, expecting visitors to get in touch with the academy through contact channels given on that page in order to sign up and pay for membership.
 
-4 boxes representing different membership options, one of them had to be a distinctive looking offer of a free introductory class.
-Each box has a 'Get Started' button that links to _Contact_ page at the moment, expecting visitors to get in touch with the academy through contact channels given on that page in order to sign up and pay for membership.
-In the future, the academy owner would like this button to link directly to online sign up and payment feature. 
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
 
-<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+<br>
+
+9. Account - Sign up page
+
+	The _Sign up_ page is accessible from the navbar _Account_ dropdown menu, if no user is currently signed in. The page contains the sign up form with the following fields (* fields are required):
+	- Email address *
+	- Email address confirmation *
+	- Username *
+	- Password *
+	- Password confirmation *
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+	
+<br>
+
+10. Account - Login page
+
+	The _Login_ page is accessible from the navbar _Account_ dropdown menu, if no user is currently signed in. The page contains the sign up form with the following fields (* fields are required):
+
+	- Username *
+	- Password *
+	- Remember me (tickbox)
+
+	On submitting the form (Sign in), the user is taken to the _Home_ page and a 'Success!' toast is displayed to confirm the successful login. Furthermore, a user icon is displayed above the _Account_ link in the navbar, indicating that a user is currently signed in.
+
+	Below the the _login_ form a link to retrieve the _forgotten password_ is provided.
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+<br>
+
+11. Account - Logout page
+
+	The _Logout_ page is accessible from the navbar _Account_ dropdown menu, if user is currently signed in. On 
+
+
+
+
+
+
 
 
 
