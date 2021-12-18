@@ -144,17 +144,20 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 <br>
 
 3. Home Page
-The _Home_ page features a big welcome banner showing an image of one of the classes at the Academy with the big headline and call to action to join the Academy at the center of it.
-Below is the quick overview of disciplines that the Academy offers classes in: Brazilian Jiu-Jitsu, Kickboxing and Boxing, and an invitation to read more about them (each discipline links to a specific related section of the _About_ page).
-Returning to the _Home_ page is only possible via clicking on the logo or the navigation link in the footer.
 
-<img src="assets/images_readme/ms1-readme-features-home.png" alt="Anaconda MAA website - Home page">
+	The _Home_ page features a main banner with headline and call to action button to join the Academy. Below the banner is the quick overview of disciplines that the Academy offers classes in: Brazilian Jiu-Jitsu, Kickboxing and Boxing, and an invitation to read more about them on the _About_ page.
 
-### About Page
-The _About_ page, features smaller than _Home_ page main banner (smaller size banner also features on the rest of the pages). The page contains couple of paragraphs about Anaconda Martial Arts Academy and a small section devoted to each of the martial arts disciplines taught at the school.
-Each of those sections has __'Join Our Academy'__ call to action button and an additional link to _Coaches_ page inviting visitors to get some information about the Instructor for the particular discipline.
+	<img src="assets/images_readme/ms1-readme-features-home.png" alt="Anaconda MAA website - Home page">
 
-<img src="assets/images_readme/ms1-readme-features-about.png" alt="Anaconda MAA website - About page">
+<br>
+
+4. About Page
+
+	The _About_ page, features the main banner on top and below contains couple of paragraphs about Anaconda Martial Arts Academy followed by a small section devoted to each of the martial arts disciplines taught in the school and ending with information about the instructors.
+
+	Each of the martial arts sections has __'Join Our Academy'__ call to action button and an additional link to _Coaches_ section, each of the instructors sections has in turn link back to information about the discipline they are teaching.
+
+	<img src="assets/images_readme/ms1-readme-features-about.png" alt="Anaconda MAA website - About page">
 
 ### Classes Page
 The _Classes_ page, apart from the main banner, features sections explaining division of classes into different age and skill level groups.
