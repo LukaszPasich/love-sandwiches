@@ -319,8 +319,39 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 14. Product search bar
 
-	Displays all products in the website's database on a responsive grid. Each product is represented by a box containing below details:
+	Product search bar appears on the _Shop_ page. It allows for searching for products based on the keyword(s) entered into the search bar (keywords searched in the category, name and description of the products).
+	An 'Error!' toast pops up if search is performed with no search criteria entered or the search criteria was not found.
 
+<br>
+
+15. Sort by...
+
+	_Sort by_ box appears on the _Shop_ page. It allows for sorting of the current selection of the products on the page (can be all products or products filtered by keyword or category).
+	
+	Current sorting criteria are:
+	- Price (low to high, high to low)
+	- Rating (low to high, high to low)
+	- Name (A-Z, Z-A)
+	- Category (A-Z, Z-A)
+
+<br>
+
+16. Product View page
+
+	Individual _Product View_ page is accessed from the _Shop_ page after clicking on any product. This page contains similar details to the _Shop_ page with some expansions:
+	- Image (bigger than on the _Shop_ page)
+	- Category
+	- Name
+	- Price
+	- Rating
+	- Description
+	- Quantity Selector
+	- Edit button (available only to admin user)
+	- Delete button (available only to admin user)
+
+	_Add to Bag_ button ads the currently viewed product and it's selected quantity to the shopping bag. The 'Success!' toast with full current details of the shopping bag is displayed.
+
+	<img src="assets/images_readme/ms1-readme-features-favicon.png" alt="Anaconda MAA website - favicon">
 
 
 
