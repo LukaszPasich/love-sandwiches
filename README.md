@@ -218,6 +218,8 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 	- Password *
 	- Password confirmation *
 
+	On submitting the form (Sign up) the user is taken to _Verify your email_ page, with the toast 'Alert!' being displayed informing user that the email has been sent to the submited email address with the link to verify the user's email address.
+
 	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
 	
 <br>
@@ -240,7 +242,35 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 11. Account - Logout page
 
-	The _Logout_ page is accessible from the navbar _Account_ dropdown menu, if user is currently signed in. On 
+	The _Logout_ page is accessible from the navbar _Account_ dropdown menu, if user is currently signed in. On successful sign out the 'Success!' toast is displayed and the user is taken to the _Home_ page.
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+<br>
+
+12. Account - Profile page
+
+	The _My Profile_ page is accessible from the navbar _Account_ dropdown menu, if user is currently signed in. The page contains the the form with user's delivery details and the history of purchases made on the website.
+
+	Delivery Information form has fields:
+	- Phone number
+	- Street Address 1
+	- Street Address 2
+	- Town or City
+	- County, State or Locality
+	- Postal Code
+	- Country (dropdown)
+
+	On submitting this form, the 'Success!' toast pops up and the page reloads with the information updated.
+
+	Order history contains the following information:
+	- Order number - links to the order confirmation originally generated, with more details of the order (a toast 'Alert!' informs user that this os the past order)
+	- Order date
+	- Items purchased
+	- Order total
+
+
+
 
 
 
