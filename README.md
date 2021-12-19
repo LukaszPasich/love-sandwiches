@@ -285,7 +285,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 	- Rating
 	- Image URL (opens select from your computer web browser box)
 
-	On submitting this form, the 'Success!' toast pops - the new product has been added to the database and the admin user is redirected to the _Product_ page with the preview of the newly added product.
+	On submitting this form, the 'Success!' toast pops - the new product has been added to the database and the admin user is redirected to the _Product View_ page with the preview of the newly added product.
 
 	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
 
@@ -353,11 +353,49 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 	<img src="assets/images_readme/ms1-readme-features-favicon.png" alt="Anaconda MAA website - favicon">
 
+<br>
+
+17. Edit Product page
+
+	The _Edit Product_ page is available only to admin user and allows admin user to edit existing products and update these edits in database. Editing the product is available from the _Shop_ page or _Product View_ page. The page contains the same form as the _Add Product_ page, with all the fields populated with current product information.
+
+	When accesing the _Edit Product_ page an 'Alert!' toast pops up to remind the user that this action will change product information.
+
+	On submitting this form (Update product), the 'Success!' toast pops - the product has been updated in the database and the admin user is redirected to the _Product View_ page with the preview of the updated product.
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+<br>
+
+18. _Delete Product_ functionality
+
+	_Delete Product_ functionality is available only to admin user and allows admin user to delete existing product from the database.
+	Deleting the product is available from the _Shop_ page or _Product View_ page.
+	
+	---
+	__WARNING!__
+	
+	Currently there is no confirmation of deleting the product required, so once the _Delete_ button is clicked on, the product is instantly erased from database. This will need to be corrected at the soonest opportunity.
+
+	---
+
+	On successful _Delete_ a 'Success!' toast pops up.
+
+<br>
+
+19. _Shopping Bag_ page and functionality
+
+	_Delete Product_ functionality is available only to admin user and allows admin user to delete existing product from the database.
+	Deleting the product is available from the _Shop_ page or _Product View_ page.
 
 
 
 
+<br>
+<br>
+<br>
 
+---
 ### Favicon
 Favicon won't let the the Anaconda MAA website get lost in the sea of open web browser tabs.
 
