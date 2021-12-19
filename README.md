@@ -237,6 +237,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 	Below the the _login_ form a link to retrieve the _forgotten password_ is provided.
 
 	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+	
 
 <br>
 
@@ -385,8 +386,92 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 19. _Shopping Bag_ page and functionality
 
-	_Delete Product_ functionality is available only to admin user and allows admin user to delete existing product from the database.
-	Deleting the product is available from the _Shop_ page or _Product View_ page.
+	_Shopping Bag_ page contains the list of products that have been added to the bag in the single continued session (not ended with payment). The products are subtotalled individually and the grand total is calculated at the bottom of the page. 
+
+	_Shopping Bag_ page can be accessed via the link in the navbar - the current euro value of the bag link - and it can be also accessed by clicking on _Go to secure checkout_ button on the 'SUCCESS!' toast, which always appears on the occasion of adding product to the _Shopping Bag_ or updating the quantity. 
+
+	---
+	__NOTE!__
+
+	There is 10% Delivery charge calculated on orders under 50EUR, this hasn't been communicated very well, I decided to communicate more strongly 10% Discount for Academy members, but connecting memberships to users didn't happen at the end. It should be a featured considered at the next round of website updates.  
+
+	---
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+
+<br>
+
+20. _Checkout_ page and functionality
+
+	_Checkout_ page is the last step before confirming the payment in the Anaconda academy shop. The page contains the summary overview of the shopping bag with the grand total and a form with personal, delivery and payment details.
+
+	The form contains below fields (* fields are required):
+	- Full name *
+	- Email *
+	- Phone number *
+	- Street address 1 *
+	- Street address 2 *
+	- Town or City *
+	- County, State or Locality
+	- Postal code
+	- Country * (select from dropdown menu)
+	- Credit Card number *
+	- Save delivery info to my profile (checkbox)
+
+	On submitting the form (Complete Order), the payment is being processed through Stripe, the 'Success!' toast pops up and the user is taken to the _Thank You_ page with full details order confirmation.
+
+	---
+	__NOTE!__
+
+	The order confirmation email is currently not being sent. This needs to be fixed at the soonest opportunity.
+
+	---
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+<br>
+
+21. Order confirmation _Thank You_ page
+
+	This page contains full order summary of the order just processed.
+	- Order info:
+		- Order number
+		- Order date
+	- Order details
+	- Delivering to info:
+		- Full name
+		- Phone number
+		- Street address 1
+		- Street address 2
+		- Town or City
+		- County, State or Locality
+		- Postal code
+		- Country
+	- Billing info:
+		- Order total
+		- Delivery
+		- Grand total
+
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+<br>
+
+21. _Stripe_ payment functionality
+
+	_Stripe_ is setup for processing the payment on the website. Webhooks are connected to ensure that the order is accounted for at the point of clicking on _Complete Order_ button on _Checkout_ page and is going to be processed even if the connection with website is broken suddenly.
+
+
+<br>
+
+22. Toasts
+
+	_Stripe_ is setup for processing the payment on the website. Webhooks are connected to ensure that the order is accounted for at the point of clicking on _Complete Order_ button on _Checkout_ page and is going to be processed even if the connection with website is broken suddenly.
+
+
+
+
 
 
 
