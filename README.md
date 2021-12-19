@@ -250,7 +250,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 12. Account - Profile page
 
-	The _My Profile_ page is accessible from the navbar _Account_ dropdown menu, if user is currently signed in. The page contains the the form with user's delivery details and the history of purchases made on the website.
+	The _My Profile_ page is accessible from the navbar _Account_ dropdown menu, if user is currently signed in. The page contains the form with user's delivery details and the history of purchases made on the website.
 
 	Delivery Information form has fields:
 	- Phone number
@@ -269,12 +269,57 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 	- Items purchased
 	- Order total
 
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
 
 
+<br>
 
+12. Account - Add Products page
 
+	The _Add Product_ page allows admin user to add new products to the database and is accessible from the navbar _Account_ dropdown menu, only by admin user who is currently signed in. The page contains the form with the following product details to fill in (* fields are required):
+	- Category (Choose from dropdown)
+	- SKU
+	- Name *
+	- Description
+	- Price *
+	- Rating
+	- Image URL (opens select from your computer web browser box)
 
+	On submitting this form, the 'Success!' toast pops - the new product has been added to the database and the admin user is redirected to the _Product_ page with the preview of the newly added product.
 
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+<br>
+
+13. Shop page
+
+	Displays all products in the website's database on a responsive grid. Each product is represented by a box containing below details:
+	
+	- Image
+	- Category
+	- Name
+	- Price
+	- Rating
+	- Edit button (available only to admin user)
+	- Delete button (available only to admin user)
+
+	Clicking on one of the products takes user to the individual _Product View_ page.
+
+	There are tabs with different categories above the products allowing user to select all products or only products in the chosen category.
+
+	---
+	__NOTE:__
+
+	More categories and more products should be added to complete the full offer.
+	___
+
+	<img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
+
+<br>
+
+14. Product search bar
+
+	Displays all products in the website's database on a responsive grid. Each product is represented by a box containing below details:
 
 
 
