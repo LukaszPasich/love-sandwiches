@@ -11,7 +11,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 # Link to live project - [CLICK HERE](https://anacondamaa2.herokuapp.com/)
 
----
+<br>
 
 #### Contents
 1. [UX](#ux)
@@ -21,40 +21,27 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 		- [User Stories](#user-stories)
 	- [Scope](#scope)
 		- [Features included](#features-included)
+		- [Features to implement in the future](#features-to-implement-in-the-future)
 	- [Structure](#structure)
 	- [Skeleton](#skeleton)
 	- [Surface](#surface)
-2. [Features](#features)
-	- [Navigation Bar](#navigation-bar)
-	- [Footer](#footer)
-	- ['Join Academy' call to action button](#'join-academy'-call-to-action-button)
-	- [Home Page](#home-page)
-	- [About Page](#about-page)
-	- [Classes Page](#classes-page)
-	- [Times & Prices Page](#times-and-prices-page)
-	- [Coaches Page](#coaches-page)
-	- [Contact Page](#contact-page)
-	- [Contact Form](#contact-form)
-	- [Google Maps Location Map](#google-maps-location-map)
-	- [Favicon](#favicon)
-	- [Features to Implement in the Future](#features-to-implement-in-the-future)
-3. [Technologies](#technologies)
+2. [Technologies](#technologies)
 	- [Tools](#tools)
 	- [Libraries](#libraries)
 	- [Languages](#languages)
-4. [Testing](#testing)
+3. [Testing](README_testing.md#testing)
 	- [Automated Testing](#automated-testing)
 	- [UX Testing](#ux-testing)
 	- [Manual Testing](#manual-testing)
 	- [Bugs](#bugs)
-5. [Deployment](#deployment)
-6. [Credits](#credits)
+4. [Deployment](#deployment)
+5. [Credits](#credits)
 	- [Content](#content)
 	- [Media](#media)
 	- [Code](#code)
     - [Resources](#resources)
 	- [Acknowledgements](#acknowledgements)
-7. [Contact](#contact)
+6. [Contact](#contact)
 
 
 ---
@@ -458,36 +445,31 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 <br>
 
-21. _Stripe_ payment functionality
+22. _Stripe_ payment functionality
 
 	_Stripe_ is setup for processing the payment on the website. Webhooks are connected to ensure that the order is accounted for at the point of clicking on _Complete Order_ button on _Checkout_ page and is going to be processed even if the connection with website is broken suddenly.
 
 
 <br>
 
-22. Toasts
+23. Toasts
 
-	_Stripe_ is setup for processing the payment on the website. Webhooks are connected to ensure that the order is accounted for at the point of clicking on _Complete Order_ button on _Checkout_ page and is going to be processed even if the connection with website is broken suddenly.
+	Toasts are connected to _messages_ in views and they pass on the messages of success, info, warnings and errors.
+	
+	Check the full list of toasts in the [Manual testing section](README_testing.md#manual-testing).
 
+<br>
 
+24. Toasts
 
+	Toasts are connected to _messages_ in views and they pass on the messages of success, info, warnings and errors.
 
-
-
-
+	<img src="assets/images_readme/ms1-readme-features-favicon.png" alt="Anaconda MAA website - favicon">
 
 <br>
 <br>
-<br>
 
----
-### Favicon
-Favicon won't let the the Anaconda MAA website get lost in the sea of open web browser tabs.
-
-<img src="assets/images_readme/ms1-readme-features-favicon.png" alt="Anaconda MAA website - favicon">
-
-
-### Features to Implement in the Future
+### Features to implement in the future
 - Definitely needed in the near future.
 	- Full back-end functionality of the contact form.
 	- Google maps with a marker.
@@ -504,3 +486,9 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 		- filter by class time
 	- Video Gallery
 
+<br>
+
+[Back to top](#contents)
+
+---
+---
