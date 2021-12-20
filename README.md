@@ -470,25 +470,62 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 <br>
 
 ### Features to implement in the future
-- Definitely needed in the near future.
-	- Full back-end functionality of the contact form.
-	- Google maps with a marker.
-	- Online Membership Signup & Payment feature - as a direct link from the Membership Prices boxes on the _Times & Prices_ page.
-	- Navbar hidden in the hamburger menu icon - to reduce the size of the real estate taken by the current Navbar.
-	- Members testimonials page - currently there are testimonials posted on social media, _"but it would be nice to have them on the website as well"_ (business owner's quote).
-- Potentially something to look at in the future.
-	- Online Free Trial Class booking - a feature allowing users to pick the class date and time in the online calendar and have the class automatically booked, with confirmation email automatically sent to user.
-	- Filters that highlight the selected classes on the Class Schedule calendar - for quick and easy preview.
-	Filter classes:
-		- filter by discipline
-		- filter by age group
-		- filter by skill level
-		- filter by class time
-	- Video Gallery
+- Online Membership Signup & Payment feature.
+- Connect Memberships to Users.
+- Connect 10% discount in the shop to users with academy membership.
+- Add more products and categories to the shop.
+- Connect Order Confirmation email.
+- Add confirmation or cancel delete (defensive design) to _Delete Product_ button.
+- Connect the contact form to some emailing service (EmailJS etc...)
+- Add Google maps with a marker on contact page.
+- Add members testimonials page.
+- Online Free Trial Class booking - a feature allowing users to pick the class date and time in the online calendar and have the class automatically booked, with confirmation email automatically sent to user.
+
 
 <br>
 
 [Back to top](#contents)
 
+
 ---
+<br>
+
+### Structure
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+---
+<br>
+
+## Technologies
+### Tools
+- [GitHub](https://github.com) was an IDE used for the project.
+- [GitPod](https://gitpod.io/workspaces/) was used for version control.
+- [Balsamiq](https://balsamiq.com) was used to create low fidelity wireframes.
+- [Adobe XD](https://www.adobe.com/ie/products/xd.html) was used to build the high fidelity prototype.
+- [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) was used to create the logo and also create/manipulate vector illustration icons and for saving vectors in .svg format.
+- [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) was used to edit, crop and save images.
+- [Adobe InDesign](https://www.adobe.com/ie/products/indesign.html) was used to create some visuals for this _Readme_ file and InDesign's online publish feature was used to store some of those visuals.
+- [Am I Responsive](http://ami.responsivedesign.is) was used to create the images of each page displayed on different screen sizes in this _Readme_ file.
+
+### Libraries
+- [Bootstrap](https://getbootstrap.com/) grids were used in particular to create and maintain the design layout across different screen/viewport sizes and make the website responsive easily.
+- [Google Fonts](https://fonts.google.com) was used for linking _Raleway_ and _Roboto Slab_ fonts to the website.
+- [Font Awesome](https://fontawesome.com) was used for icons in the footer.
+
+### Languages
+- HTML
+- CSS
+
+[Back to top](#contents)
+
 ---
