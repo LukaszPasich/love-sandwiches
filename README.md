@@ -24,6 +24,8 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 		- [Features to implement in the future](#features-to-implement-in-the-future)
 	- [Structure](#structure)
 	- [Skeleton](#skeleton)
+		- [Wireframes (low fidelity wireframes)](#wireframes-(low-fidelity))
+		- [Prototype (high fidelity wireframes)](#prototype-(high-fidelity))
 	- [Surface](#surface)
 2. [Technologies](#technologies)
 	- [Tools](#tools)
@@ -491,10 +493,44 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 ### Structure
 
+<br>
+
+[Back to top](#contents)
+
 ---
 <br>
 
 ### Skeleton
+
+<br>
+
+#### Wireframes (low fidelity)
+Wireframes created for 4 screen/ device sizes: desktop, tablet-landscape, tablet-portrait and phone.
+- [Wireframes for all pages AVAILABLE HERE](https://indd.adobe.com/view/d9db8027-1cdd-4de5-86b2-efcc73aef2eb)
+
+	---
+	__NOTE__
+
+	Ultimately, I didn't have time/skills to implement the membership purchase functionality that is presented in the wireframes. 
+
+	---
+
+<br>
+
+#### Prototype (high fidelity)
+Prototype for desktop only created.
+- [Prototype - desktop version of the website AVAILABLE HERE](https://xd.adobe.com/view/3225eceb-21c6-4e20-9318-36ec8daf1735-6776/)
+
+	---
+	__NOTE__
+
+	Ultimately, I didn't have time/skills to implement the membership purchase functionality that is presented in the wireframes. 
+
+	---
+
+<br>
+
+[Back to top](#contents)
 
 ---
 <br>
@@ -503,55 +539,61 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 <br>
 
-#### The Name - Why Anaconda?
+-	The Name - Why Anaconda?
 
-The martial art of Brazilian Jiu-Jitsu - one of the staples of the academy - is in essence the skill of grappling, holding and taking down the opponent to then force them into submission via joint lock or chokehold.
-This very much resembles the actions of a constrictor snake and one of the submissions in BJJ is even called an _Anaconda Choke_. As grappling has become one of the key weapons in Mixed Martial Artist's arsenal, Brazilian Jiu-Jitsu became near synonymous with MMA and that's why I thought it was a good name for this Martial Arts Academy.
-
-<br>
-
-#### Logo
-With the logo I was trying to emulate the classic idea of the Martial Arts Club badge which seems to have always evolved around some related image or an Asian symbol enclosed in a circle (or lately popular octagon), with the club name and all the necessary text wrapped around that circle.
-
-Reference images:
-<img src="assets/images_readme/ms1-readme-ux-logoref.jpg" alt="Anaconda MAA website logo reference">
-
-Anaconda MAA final logo:
-<img src="assets/images_readme/ms1-readme-ux-logo.jpg" alt="Anaconda MAA logo">
+	The martial art of Brazilian Jiu-Jitsu - one of the staples of the academy - is in essence the skill of grappling, holding and taking down the opponent to then force them into submission via joint lock or chokehold.
+	This very much resembles the actions of a constrictor snake and one of the submissions in BJJ is even called an _Anaconda Choke_. As grappling has become one of the key weapons in Mixed Martial Artist's arsenal, Brazilian Jiu-Jitsu became near synonymous with MMA and that's why I thought it was a good name for this Martial Arts Academy.
 
 <br>
 
-#### Colours
-Principally white, red and black colour palette.
-With black and white representing the concept of dualism, describing how seemingly opposite or contrary forces may actually be complementary, interconnected, and interdependent in the natural world, and the red colour being universally seen as a sign of both life and aggression - the 3 colours have always been used in martial arts themes.
+- Logo
 
-In my research of the competitor's websites, I discovered that these were the prevalent colours on all of those websites and the similar colour theme would also be possibly expected by the website user/ visitor. Meeting this expectation adds credibility to the brand, company and the website. 
+	With the logo I was trying to emulate the classic idea of the Martial Arts Club badge which seems to have always evolved around some related image or an Asian symbol enclosed in a circle (or lately popular octagon), with the club name and all the necessary text wrapped around that circle.
 
+	Reference images:
 
-<img src="assets/images_readme/ms1-readme-ux-colours.jpg" alt="Anaconda MAA website colours">
+	<img src="assets/images_readme/ms1-readme-ux-logoref.jpg" alt="Anaconda MAA website logo reference">
 
-<br>
+	Anaconda MAA final logo:
 
-#### Typography
-- Raleway: Semi-Bold, Bold and Extra Bold - for headlines and sub-headlines.
-
-_Raleway_ because it is a nice and clean display typeface and also geometric sans-serif fonts (as _Raleway_ being geometric inspired) tend to have more neutral feel about them.
-As Anaconda MAA aims at attracting a diverse audience, I didn't want to use font with too strong personality, because I wanted to convey an 'everybody is welcome' academy's approach to attracting it's new members.
-
-- Roboto: Regular - for body text.
-
-_Roboto_ has forms that are largely geometric, but at the same time, the font features friendly and open curves - it is an excellent body text font and a good compliment to Raleway.
-Allowing letters to be settled into their natural width and with slab-serifs clearly defining the text baseline _Roboto_ creates an easy and more natural reading rhythm.
-
-
-Both fonts and also their combination has been tried and is well established and widely popular on the web.
+	<img src="assets/images_readme/ms1-readme-ux-logo.jpg" alt="Anaconda MAA logo">
 
 <br>
 
-#### Images - Why black and white photography?
+- Colours
 
-Black and white photography removes any distraction of color and helps the viewer focus on other aspects of the photo, such as the subject, the textures, shapes and patterns, and the composition.
-It can convey remarkable purity of emotion and action and therefore works perfect for martial arts.
+	Principally white, red and black colour palette.
+	With black and white representing the concept of dualism, describing how seemingly opposite or contrary forces may actually be complementary, interconnected, and interdependent in the natural world, and the red colour being universally seen as a sign of both life and aggression - the 3 colours have always been used in martial arts themes.
+
+	In my research of the competitor's websites, I discovered that these were the prevalent colours on all of those websites and the similar colour theme would also be possibly expected by the website user/ visitor. Meeting this expectation adds credibility to the brand, company and the website. 
+
+
+	<img src="assets/images_readme/ms1-readme-ux-colours.jpg" alt="Anaconda MAA website colours">
+
+<br>
+
+- Typography
+
+	Raleway: Semi-Bold, Bold and Extra Bold - for headlines and sub-headlines.
+
+	_Raleway_ because it is a nice and clean display typeface and also geometric sans-serif fonts (as _Raleway_ being geometric inspired) tend to have more neutral feel about them.
+	As Anaconda MAA aims at attracting a diverse audience, I didn't want to use font with too strong personality, because I wanted to convey an 'everybody is welcome' academy's approach to attracting it's new members.
+
+	Roboto: Regular - for body text.
+
+	_Roboto_ has forms that are largely geometric, but at the same time, the font features friendly and open curves - it is an excellent body text font and a good compliment to Raleway.
+	Allowing letters to be settled into their natural width and with slab-serifs clearly defining the text baseline _Roboto_ creates an easy and more natural reading rhythm.
+
+
+	Both fonts and also their combination has been tried and is well established and widely popular on the web.
+
+<br>
+
+- Images - Why black and white photography?
+
+	Black and white photography removes any distraction of color and helps the viewer focus on other aspects of the photo, such as the subject, the textures, shapes and patterns, and the composition.
+	It can convey remarkable purity of emotion and action and therefore works perfect for martial arts.
+
 
 [Back to top](#contents)
 
@@ -580,6 +622,87 @@ It can convey remarkable purity of emotion and action and therefore works perfec
 - HTML
 - CSS
 
+<br>
+
 [Back to top](#contents)
 
 ---
+---
+
+<br>
+
+## Credits
+### Content
+The textual content was influenced by or taken from the websites:
+- [JS Brazilian Jiu-Jitsu](https://www.jsbjj.ie "JS Brazilian Jiu-Jitsu")
+- [Evolve Daily blog](https://evolve-mma.com/blog/4-reasons-boxing-will-make-you-obsessed-to-working-out/ "Evolve Daily blog")
+- [Club Solutions Magazine](https://clubsolutionsmagazine.com/2018/11/7-reasons-kickboxing-classes-schedule/ "Club Solutions Magazine")
+- [Satori BJJ Dublin](https://www.satoribjj.com "Satori BJJ Dublin")
+- [Royal Grappling Academy](https://rga.ie "Royal Grappling Academy")
+
+### Media
+- Home page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/DT3bb-KDAus "www.unsplash.com")
+- Home page BJJ white image - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/NdCixEBtTf0 "www.unsplash.com")
+- Home page kickboxing white image - bu Justin Ng, downloaded from [www.unsplash.com](https://unsplash.com/photos/45tcVh0M3kw "www.unsplash.com")
+- Home page kickboxing icon - by Miguel Angel, downloaded from [www.vecteezy.com](https://www.vecteezy.com/vector-art/93089-woman-and-man-fighting-silhouettes "www.vecteezy.com")
+- Home page boxing white image - by Anastase Maragos, downloaded from [www.unsplash.com](https://unsplash.com/photos/ZUBNPRZsQvk "www.unsplash.com")
+- Home page boxing icon - by yoosillyone, downloaded from [www.vecteezy.com](https://www.vecteezy.com/vector-art/166423-muay-thai-silhouette "www.vecteezy.com")
+- About page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/NdCixEBtTf0 "www.unsplash.com")
+- About page boxing bag image - by Milo Bunnik, downloaded from [www.unsplash.com](https://unsplash.com/photos/lp9GQiQNHqc "www.unsplash.com")
+- About page BJJ image - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/YmNIHXdTfPg "www.unsplash.com")
+- About page kickboxing image - by cottonbro, downloaded from [www.pexels.com](https://www.pexels.com/photo/woman-in-black-shirt-and-black-shorts-carrying-black-leather-shoulder-bag-4754146/ "www.pexels.com")
+- About page boxing image - by Logan Weaver, downloaded from [www.unsplash.com](https://unsplash.com/photos/9D_rUDe7xvA "www.unsplash.com")
+- Classes page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/AsCCBr7J-XM "www.unsplash.com")
+- Classes page kids & teens classes image - by Microgen, downloaded from [www.stock.adobe.com](https://stock.adobe.com/ie/images/martial-arts-training-class-for-children/176854174 "Adobe Stock")
+- Classes page adults classes image - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/YQg2wxJAINQ "www.unsplash.com")
+- Times & Prices page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/QMhc3D_zwJ0 "www.unsplash.com")
+- Coaches page main banner - by Gantas Vaičiulėnas, downloaded from [www.unsplash.com](https://unsplash.com/photos/rvAcZMqFIkY "www.unsplash.com")
+- Coaches page BJJ coach image - by Jahir Martinez, downloaded from [www.unsplash.com](https://unsplash.com/photos/cVLOqm8sSXc "www.unsplash.com")
+- Coaches page kickboxing coach image - by Michael Uebler, downloaded from [www.unsplash.com](https://unsplash.com/photos/EwnkEPhVym4 "www.unsplash.com")
+- Coaches page boxing coach image - by John Fornander, downloaded from [www.unsplash.com](https://unsplash.com/photos/r79IYSMpu_M "www.unsplash.com")
+- Contact page main banner - by Thao Le Hoang, downloaded from [www.unsplash.com](https://unsplash.com/photos/XeBk0qF77_4 "www.unsplash.com")
+
+### Code
+- Navigation links hover effect (underline from center) styling - code found on Hover.css website [https://ianlunn.github.io/Hover/#effects](https://ianlunn.github.io/Hover/#effects), (style.css file lines 213-241). 
+- _Home_ page - overlay hover effect on 3 images (BJJ, Kickboxing and Boxing) styling - code found on [www.w3schools.com](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp), (style.css file lines 331-357).
+- _Coaches_ page - zoom effect on hover over coaches images styling - code found on [www.w3bits.com](https://w3bits.com/css-image-hover-zoom/) website, (style.css file lines 535-551).
+- _Contact_ page - Google Maps location map code generated on [www.maps.ie](https://www.maps.ie/create-google-map/) Google Maps generator, (contact.html file lines 128-137).
+
+### Resources
+Websites I have accessed for solutions/ questions and extra resources:
+- [www.w3schools.com](https://www.w3schools.com)
+- [www.stackoverflow.com](https://stackoverflow.com)
+- [www.developer.mozilla.org](https://developer.mozilla.org/en-US/)
+- [www.css.tricks.com](https://css-tricks.com)
+- [How to add a favicon to your website](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html)
+- [Code Institute course content](https://codeinstitute.net/)
+
+### Acknowledgements
+- Thank you to my mentor __Nishant Kumar__ for his guidance, support and continuous helpful feedback throughout this project.
+- Tutor Support at Code Institute and the Slack Community for a solution to any question at any time.
+
+<br>
+
+[Back to top](#contents)
+
+---
+---
+
+<br>
+
+## Contact
+For any queries related to this project, you can contact me at:
+
+lukas (dot) zed81 (at) gmail (dot) com.
+
+<br>
+
+[Back to top](#contents)
+
+---
+---
+---
+
+<br>
+
+### THANK YOU FOR TAKING TIME TO VIEW THIS PROJECT!
