@@ -493,6 +493,15 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 
 ### Structure
 
+#### Sitemap
+
+- [Sitemap CLICK HERE](https://indd.adobe.com/view/07136e64-5fa7-4427-a982-9158331285cf)
+
+
+#### Database
+
+- [Database structure CLICK HERE](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b27eda61-45f0-40e5-a1f5-37fafdde079a)
+
 <br>
 
 [Back to top](#contents)
