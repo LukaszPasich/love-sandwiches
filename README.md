@@ -23,6 +23,8 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 		- [Features included](#features-included)
 		- [Features to implement in the future](#features-to-implement-in-the-future)
 	- [Structure](#structure)
+		- [Sitemap](#sitemap)
+		- [Database Schema](#database-schema)
 	- [Skeleton](#skeleton)
 		- [Wireframes (low fidelity wireframes)](#wireframes-(low-fidelity))
 		- [Prototype (high fidelity wireframes)](#prototype-(high-fidelity))
@@ -498,9 +500,9 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 - [Sitemap CLICK HERE](https://indd.adobe.com/view/07136e64-5fa7-4427-a982-9158331285cf)
 
 
-#### Database
+#### Database Schema
 
-- [Database structure CLICK HERE](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b27eda61-45f0-40e5-a1f5-37fafdde079a)
+- [Database structure CLICK HERE](https://indd.adobe.com/view/2c4b9a28-36dc-4bf4-b1b9-85fc3c0fbf71)
 
 <br>
 
@@ -533,7 +535,7 @@ Prototype for desktop only created.
 	---
 	__NOTE__
 
-	Ultimately, I didn't have time/skills to implement the membership purchase functionality that is presented in the wireframes. 
+	Ultimately, I didn't have time and skills to implement the membership purchase functionality that is presented in the wireframes. 
 
 	---
 
@@ -615,21 +617,27 @@ Prototype for desktop only created.
 ### Tools
 - [GitHub](https://github.com) was an IDE used for the project.
 - [GitPod](https://gitpod.io/workspaces/) was used for version control.
-- [Balsamiq](https://balsamiq.com) was used to create low fidelity wireframes.
-- [Adobe XD](https://www.adobe.com/ie/products/xd.html) was used to build the high fidelity prototype.
-- [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) was used to create the logo and also create/manipulate vector illustration icons and for saving vectors in .svg format.
+- [Heroku](https://heroku.com) was used for website deployment.
+- [Adobe Indesign](https://balsamiq.com) was used to create low fidelity wireframes.
+- [Adobe XD](https://www.adobe.com/ie/products/xd.html) was used to build the high fidelity prototypes.
+- [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) was used to create logo.
 - [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) was used to edit, crop and save images.
-- [Adobe InDesign](https://www.adobe.com/ie/products/indesign.html) was used to create some visuals for this _Readme_ file and InDesign's online publish feature was used to store some of those visuals.
 - [Am I Responsive](http://ami.responsivedesign.is) was used to create the images of each page displayed on different screen sizes in this _Readme_ file.
 
-### Libraries
-- [Bootstrap](https://getbootstrap.com/) grids were used in particular to create and maintain the design layout across different screen/viewport sizes and make the website responsive easily.
-- [Google Fonts](https://fonts.google.com) was used for linking _Raleway_ and _Roboto Slab_ fonts to the website.
-- [Font Awesome](https://fontawesome.com) was used for icons in the footer.
+### Libraries and frameworks
+- [Django](https://www.djangoproject.com/) - a high-level Python framework was used to develop the website. It provided framework for easy implementation and use of data models, views and URL's, templates, forms, authentication and provided admin function.
+- [jQuery](https://jquery.com/) - a JavaScript library, was used for a number of front-end interaction solutions.
+- [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/) tool was used for hashing and unhashing back the passwords.
+- [Materialize](https://materializecss.com/) grids were used in particular to create and maintain the design layout across different screen/viewport sizes and make the website responsive easily. Some dynamic components from Materialize were also used.
+- [Google Fonts](https://fonts.google.com) was used to link the "Montserrat" and "Zilla Slab" fonts.
+- [Font Awesome](https://fontawesome.com) was used for icons.
+- [RandomKeyGen](https://randomkeygen.com) was used for generating Fort Knox password for session user secret key.
 
 ### Languages
-- HTML
-- CSS
+- HTML5
+- CSS3
+- JavaScript
+- Python
 
 <br>
 
