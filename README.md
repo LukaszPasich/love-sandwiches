@@ -33,7 +33,7 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 	- [Tools](#tools)
 	- [Libraries](#libraries)
 	- [Languages](#languages)
-3. [Testing](README_testing.md#testing)
+3. [Testing](#testing)
 	- [Automated Testing](#automated-testing)
 	- [UX Testing](#ux-testing)
 	- [Manual Testing](#manual-testing)
@@ -627,11 +627,9 @@ Prototype for desktop only created.
 ### Libraries and frameworks
 - [Django](https://www.djangoproject.com/) - a high-level Python framework was used to develop the website. It provided framework for easy implementation and use of data models, views and URL's, templates, forms, authentication and provided admin function.
 - [jQuery](https://jquery.com/) - a JavaScript library, was used for a number of front-end interaction solutions.
-- [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/) tool was used for hashing and unhashing back the passwords.
-- [Materialize](https://materializecss.com/) grids were used in particular to create and maintain the design layout across different screen/viewport sizes and make the website responsive easily. Some dynamic components from Materialize were also used.
-- [Google Fonts](https://fonts.google.com) was used to link the "Montserrat" and "Zilla Slab" fonts.
+- [Bootstrap](https://getbootstrap.com/) library was used to style the website and make it responsive.
+- [Google Fonts](https://fonts.google.com) was used to link the "Raleway" and "Roboto" fonts.
 - [Font Awesome](https://fontawesome.com) was used for icons.
-- [RandomKeyGen](https://randomkeygen.com) was used for generating Fort Knox password for session user secret key.
 
 ### Languages
 - HTML5
@@ -646,6 +644,34 @@ Prototype for desktop only created.
 ---
 ---
 
+<br>
+
+## Testing 
+
+<br>
+
+### Automated Testing
+
+- For full automated testing section [CLICK HERE](README_testingmd#automated-testing)
+
+### UX Testing
+
+- For full UX testing section [CLICK HERE](#ux-testing)
+
+### Manual Testing
+
+- For full manual testing section[CLICk HERE](#manual-testing)
+
+### Bugs
+
+- For full manual testing section[CLICk HERE](#bugs)
+
+<br>
+
+[Back to top](#contents)
+
+---
+---
 <br>
 
 ## Credits
