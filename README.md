@@ -39,6 +39,9 @@ As 'Anaconda' academy is growing in members, they would like to automatise the p
 	- [Manual Testing](#manual-testing)
 	- [Bugs](#bugs)
 4. [Deployment](#deployment)
+	- [Forking GitHub Repository](#forking-github-repository)
+	- [Making a Local Clone](#making-a-local-clone)
+	- [Heroku Deployment](#heroku-deployment)
 5. [Credits](#credits)
 	- [Content](#content)
 	- [Media](#media)
@@ -673,6 +676,114 @@ Prototype for desktop only created.
 
 ---
 ---
+
+<br>
+
+## Deployment
+
+<br>
+
+### Forking GitHub Repository
+(A copy of the original repository on your GitHub account)
+
+1. Log in to GitHub and locate this [GitHub Repository](https://github.com/LukaszPasich/Anaconda-MAA-MS4-v2)
+2. Locate the "Fork" button in the top right-hand side of the page and click on it.
+3. You now have a copy of the original repository in your GitHub account.
+
+<br>
+
+### Making a Local Clone
+1. Log in to GitHub and locate this [GitHub Repository](https://github.com/LukaszPasich/Anaconda-MAA-MS4-v2)
+2. Under the repository name, click on "Code" button.
+3. In the Clone/ Download unfolded tab click on HTTPS (to clone with HTTPS).
+4. Click on the 'clipboard' icon to copy the URL of your project.
+5. Open your IDE, open terminal.
+6. Change the current working directory to the location where you want the cloned directory.
+7. In the terminal type <code>git clone</code>, and then paste the URL you copied earlier.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+8. Press _ENTER_ to create your local clone.
+
+	__Note:__ It is important that you create an env.py file to save your __environment variables__, the web app will not function without these variables:
+	
+	- ("IP", "0.0.0.0") - not recommended for production apps
+	- ("PORT", "5000")
+	- ("SECRET_KEY", "_your key for session cookie_")
+	- ("MONGO_URI", "_URI for your MongoDB Database_")
+	- ("MONGO_DBNAME", "_your database name_")
+
+<br>
+
+### Heroku Deployment
+
+1. Log in to [Heroku](https://www.heroku.com).
+2. From the Dashboard, click on the _New_ button in the top-right corner and then select "Create new app".
+3. Insert your app name.
+4. Select the most appropriate region for your location.
+5. Click the "Create app" button.
+6. In the _Resources_ tab search for Add-on "Heroku Postgres", click on it and 'Provision' it using the Free plan (or another plan of your choice).
+7. In Gitpod CLI install 2 more dependencies:
+
+	```
+	pip3 install dj.database.url
+	pip3 install psycopg2-binary 
+	```
+8. Freeze the requirements:
+
+	```
+	pip3 freeze > requirements.txt
+	```	
+9. In the app's settings.py file:
+
+	```
+	import dj_database_url
+	```	
+	... then comment out the default DATABASES settings in the settings.py file and replace it with:
+	```
+	DATABASES = {
+		'default': dj_database_url.parse(database_URL_from_Heroku) 
+	}
+	```	
+	... you can get database_URL_from_Heroku in your app's _Settings_ tab (Reveal Cofig Vars - value for the DATABASE_URL key) or by typing heroku config in Heroku CLI.
+10. With the new postgres database connected, migrations need to be run again, in CLI type in:
+
+	```
+	python3 manage.py migrate
+	```	
+
+11. Import all the data, type in CLI:
+
+	```
+	python3 manage.py loaddata db
+	```	
+	... where db is the name of the json file with fixtures. If there are multiple fixture files and some of them depend on other files, they should be loaded AFTER the files they depend on have been loaded.
+
+6. In the _Deploy_ tab of your new app select Github in the "Deployment Method" section.
+7. Once selected, a Connect to GitHub section will display below - find there your Github username and your repository and click "Connect".
+
+	__Note:__ This app uses configuration settings and secret keys for MongoDB and session cookies, which Heroku requires in order for the website to function as desired. Therefore you need to set the Config Vars within Heroku.
+
+8. Go to _Settings_ tab.
+9. In _Settings_ tab, find _Config Vars_ section and click on "Reveal Config Vars".
+10. Create the below Config Vars:
+	- "IP": "0.0.0.0",
+	- "PORT": "5000",
+	- "SECRET_KEY": "use [RandomKeyGen](https://randomkeygen.com) Fort Knox password",
+	- "MONGO_URI": "_URI for your MongoDB Database_", (you'll find this string in MongoDB)
+	- "MONGO_DBNAME": "_your database name_"
+
+11. Your app is deployed noe and you can view it by clicking on "Open App" in the top right corner of your Dashboard.
+12. Enable automatic deployment - go to "Deploy" tab and 
+in the _Automatic Deploys_ section select the branch you wish to use.
+
+<br>
+
+[Back to top](#contents)
+
+---
+---
+
 <br>
 
 ## Credits
