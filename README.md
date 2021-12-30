@@ -759,23 +759,90 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 	```	
 	... where db is the name of the json file with fixtures. If there are multiple fixture files and some of them depend on other files, they should be loaded AFTER the files they depend on have been loaded.
 
-6. In the _Deploy_ tab of your new app select Github in the "Deployment Method" section.
-7. Once selected, a Connect to GitHub section will display below - find there your Github username and your repository and click "Connect".
+12. Create superuser:
 
-	__Note:__ This app uses configuration settings and secret keys for MongoDB and session cookies, which Heroku requires in order for the website to function as desired. Therefore you need to set the Config Vars within Heroku.
+	```
+	python3 manage.py createsuperuser
+	```	
+	... create username, enter email address and create password.
 
-8. Go to _Settings_ tab.
-9. In _Settings_ tab, find _Config Vars_ section and click on "Reveal Config Vars".
-10. Create the below Config Vars:
-	- "IP": "0.0.0.0",
-	- "PORT": "5000",
-	- "SECRET_KEY": "use [RandomKeyGen](https://randomkeygen.com) Fort Knox password",
-	- "MONGO_URI": "_URI for your MongoDB Database_", (you'll find this string in MongoDB)
-	- "MONGO_DBNAME": "_your database name_"
+13. In settings.py delete current Heroku DATABASES config, uncomment previously commented out DATABASES config (you can safely push your code now and the postgres database url is not going to end up in version control) and put it in an _if statement_:
+	```
+	if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+	else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+	```	
 
-11. Your app is deployed noe and you can view it by clicking on "Open App" in the top right corner of your Dashboard.
-12. Enable automatic deployment - go to "Deploy" tab and 
-in the _Automatic Deploys_ section select the branch you wish to use.
+14. Instal gunicorn (acts as a webserver), in CLI:
+	```
+	pip3 install gunicorn
+	```	
+	...then freeze requirements:
+	```
+	pip3 freeze > requirements.txt
+	```
+
+15. Create Procfile at project level, inside the file type in on the first line:
+	```
+	web: gunicorn your_app_name.wsgi:application
+	```
+	... your_app_name is the name of the project - the name of the folder where settings.py file is.
+
+16. Login to Heroku - in CLI: heroku login (or heroku login -i and give email and password of the superuser).
+
+
+17. Temporarily disable collect static by typing in CLI:
+	```
+	heroku config: set DISABLE_COLLECTSTATIC=1 --app name_of_the_app
+	```
+	... name_of_the_app in heroku.
+
+
+18. Add the hostname of heroku app to allowed hosts in settings.py:
+	```
+	ALLOWED_HOSTS = ['app_name_in_heroku.herokuapp.com', 'localhost']
+	```
+
+19. Commit changes and push to GitHub.
+
+20. Push to Heroku, in CLI type in:
+	```
+	git push heroku main
+	```
+	... if the app was created on the website (fatal: 'heroku' does not appear to be a git repository), heroku git remote may need to be initialized:
+	```
+	heroku git:remote -a app_name_in_heroku 
+	```
+	... and then type again in CLI: git push heroku main
+
+21. After few seconds at the end of the load up, the heroku link to the app will be ready.
+
+22. To set for automatic deploy when pushed, go to Heroku _Deploy_ tab:
+- click _Connect to Github_
+- enter the name of the app in search bar (name of the GitHub repositoiry) - click "Search"
+- click "Connect" to the repository
+- below, click "Enable Automatic Deploys" - whenever code is pushed to GitHub now, it will automatically be pushed to Heroku as well.
+
+23. Go to [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) and generate a new key - copy the key.
+Go to Heroku _Settings_ tab, _Reveal Config Vars_ and add a new _Config Var_ with key: SECRET_KEY, and value: paste the key from Django Secret Key Generator.
+
+24. In settings.py replace SECRET_KEY with the call to get it from environment:
+	```
+	SECRET_KEY = os.environ.get('SECRET_KEY', '')
+	```
+
+25. In settings.py set DEBUG to be True only if there's a variable DEVELOPMENT in the environment. 
+	```
+	DEBUG = 'DEVELOPMENT' in os.environ
+	```
 
 <br>
 
