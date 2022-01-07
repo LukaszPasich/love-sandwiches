@@ -745,7 +745,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 		'default': dj_database_url.parse(database_URL_from_Heroku) 
 	}
 	```	
-	... you can get database_URL_from_Heroku in your app's _Settings_ tab (Reveal Cofig Vars - value for the DATABASE_URL key) or by typing heroku config in Heroku CLI.
+	... you can get database_URL_from_Heroku in your app's _Settings_ tab (Reveal Cofig Vars - value for the DATABASE_URL key) or by typing <code>heroku config</code> in Heroku CLI.
 10. With the new postgres database connected, migrations need to be run again, in CLI type in:
 
 	```
