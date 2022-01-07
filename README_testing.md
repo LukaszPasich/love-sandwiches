@@ -11,9 +11,12 @@
     - TEST 1.5 - _Contact_ link goes to _Contact_ page - YES
     - TEST 1.6 - "Shopping bag amount in Euros" link goes to _Shopping Bag_ page - YES
     - TEST 1.7 - "Shopping bag amount in Euros" link stays white when _Shopping Bag_ is empty and becomes blue when there is at least one item in the _Shopping Bag_  - YES
-    - TEST 1.8 - "Shopping bag amount in Euros" link value reflects the actual total value of the _Shopping Bag_  - YES
+    - TEST 1.8 - "Shopping bag amount in Euros" link value always reflects the actual total value of the _Shopping Bag_ - YES
     - TEST 1.9 - _Join Now_ link goes to _Memberships_ page - YES
-    - TEST 2.0 - _Account_ button submenu shows _Login_ and _Sign up_ links to non-registered (not logged in) users - YES
+    - TEST 1.10 - _Account_ button submenu shows only _Login_ and _Sign up_ links to non-registered (not logged in) users - YES
+    - TEST 1.11 - _Account_ button submenu shows only _My Profile_ and _Logout_ links to registered (and logged in) users - YES
+    - TEST 1.12 - _Account_ button submenu shows _Products_, _Memberships_, _Classes_, _My Profile_ and _Logout_ links to (logged in) admin users - YES
+    - TEST 1.13 - User icon appears above _Account_ button when user is logged in - YES
 
 
     - TEST 1.8 - _Log out_ logs user in session out of the session and redirects user to the _Log in_ page - YES
