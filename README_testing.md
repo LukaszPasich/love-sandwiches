@@ -233,27 +233,37 @@ Admin user:
 
 Admin user:
 
-- TEST 12.1 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Name'_ field is empty - YES
-- TEST 12.2 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Desccription'_ field is empty - YES
-- TEST 12.3 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Price'_ field is empty - YES
-- TEST 12.4 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Price'_ field entry has different format than digits, max digits: 6, max decimal places: 2 - YES
+- TEST 12.1 - _Add Product Form_ does not validate on 'Submit' ('Add Product') if _'Name'_ field is empty - YES
+- TEST 12.2 - _Add Product Form_ does not validate on 'Submit' ('Add Product') if _'Desccription'_ field is empty - YES
+- TEST 12.3 - _Add Product Form_ does not validate on 'Submit' ('Add Product') if _'Price'_ field is empty - YES
+- TEST 12.4 - _Add Product Form_ does not validate on 'Submit' ('Add Product') if _'Price'_ field entry has different format than digits, max digits: 6, max decimal places: 2 - YES
 - TEST 12.5 - _Select Image_ button allows user to select an image (from own device) and attach it to the product - YES
-- TEST 12.6 - On 'Submit' ('Add Product), of the _Add Product Form_ without image attached to the product, a default placeholder image ('no image') is attached - YES
+- TEST 12.6 - On 'Submit' ('Add Product') of the _Add Product Form_ without image attached to the product, a default placeholder image ('no image') is attached - YES
 - TEST 12.7 - 'Cancel' button links to the _Shop_ page - YES
-- TEST 12.8 - On 'Submit' ('Add Product), validated _Add Product Form_ a new product is added to the database - YES
-- TEST 12.9 - On 'Submit' ('Add Product) of the validated _Add Product Form_, the user is redirected to the _Product Details_ page of the newly added product with all information displayed correctly - relevant 'toast' is displayed - YES
+- TEST 12.8 - On 'Submit' ('Add Product')of the validated _Add Product Form_ a new product is added to the database - YES
+- TEST 12.9 - On 'Submit' ('Add Product') of the validated _Add Product Form_, the user is redirected to the _Product Details_ page of the newly added product with all information displayed correctly - relevant 'toast' is displayed - YES
 
 <br>
 
 13. #### Add Membership Page
 
-- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+- TEST 13.1 - _Add Membership Form_ does not validate on 'Submit' ('Add Membership') if _'Name'_ field is empty - YES
+- TEST 13.2 - _Add Membership Form_ does not validate on 'Submit' ('Add Membership') if _'Price'_ field is empty - YES
+- TEST 13.3 - _Add Membership Form_ does not validate on 'Submit' ('Add Membership') if _'Price'_ field entry has different format than digits, max digits: 3 - YES
+- TEST 13.4 - 'Cancel' button links to the _Membership_ page - YES
+- TEST 13.5 - On 'Submit' ('Add Membership') of the validated _Add Membership Form_ a new membership is added to the database - YES
+- TEST 13.6 - On 'Submit' ('Add Membership') of the validated _Add Membership Form_, the user is redirected to the _Membership_ page with the new membership rendered on the page - relevant 'toast' is displayed - YES
 
 <br>
 
 14. #### Add Class Page
 
-- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+- TEST 14.1 - _Add Class Form_ does not validate on 'Submit' ('Add Class') if _'Class Name'_ field is empty - YES
+- TEST 14.2 - _Add Class Form_ does not validate on 'Submit' ('Add Class') if _'Class Time'_ field is empty - YES
+
+- TEST 13.4 - 'Cancel' button links to the _Classes_ page - YES
+- TEST 13.5 - On 'Submit' ('Add Membership') of the validated _Add Membership Form_ a new membership is added to the database - YES
+- TEST 13.6 - On 'Submit' ('Add Membership') of the validated _Add Membership Form_, the user is redirected to the _Membership_ page with the new membership rendered on the page - relevant 'toast' is displayed - YES
 
 <br>
 
