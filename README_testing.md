@@ -176,8 +176,11 @@ Admin user:
 - TEST 7.11 - _'Sort by Category (Z-A)'_ reloads the page with current selection of products in the correct order - YES
 - TEST 7.12 - Current count of products loaded works correctly - YES
 - TEST 7.13 - Current count of products loaded _Products Home_ link reloads page with all products - YES
-- TEST 7.14 - Each product image links to the respective _Product Detail_ page - YES
-- TEST 7.15 - _Join Our Academy_ button at the bottom of the page links to _Membership_ page - YES
+- TEST 7.14 - Clicking on the 'All' tab above the products displays all products - YES
+- TEST 7.15 - Clicking on the _'Boxing Bags'_ tab above the products displays all products in the 'Boxing Bags' category - YES
+- TEST 7.16 - Clicking on the _'Protective'_ tab above the products displays all products in the 'Protective' category - YES
+- TEST 7.17 - Each product image links to the respective _Product Detail_ page - YES
+- TEST 7.18 - _Join Our Academy_ button at the bottom of the page links to _Membership_ page - YES
 
 <br>
 
@@ -228,7 +231,17 @@ Admin user:
 
 12. #### Add Product Page
 
-- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+Admin user:
+
+- TEST 12.1 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Name'_ field is empty - YES
+- TEST 12.2 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Desccription'_ field is empty - YES
+- TEST 12.3 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Price'_ field is empty - YES
+- TEST 12.4 - _Add Product Form_ does not validate on 'Submit' ('Add Product) if _'Price'_ field entry has different format than digits, max digits: 6, max decimal places: 2 - YES
+- TEST 12.5 - _Select Image_ button allows user to select an image (from own device) and attach it to the product - YES
+- TEST 12.6 - On 'Submit' ('Add Product), of the _Add Product Form_ without image attached to the product, a default placeholder image ('no image') is attached - YES
+- TEST 12.7 - 'Cancel' button links to the _Shop_ page - YES
+- TEST 12.8 - On 'Submit' ('Add Product), validated _Add Product Form_ a new product is added to the database - YES
+- TEST 12.9 - On 'Submit' ('Add Product) of the validated _Add Product Form_, the user is redirected to the _Product Details_ page of the newly added product with all information displayed correctly - relevant 'toast' is displayed - YES
 
 <br>
 
