@@ -12,8 +12,8 @@
 - [7. Shop Page](#shop-page)
 - [8. Contact Page](#contact-page)
 - [9. Membership Page](#membership-page)
-- [10. Sign In Page](#sign-in-page)
-- [11. Sign Up Page](#sign-up-page)
+- [10. Sign Up Page](#sign-up-page)
+- [11. Sign In Page](#sign-in-page)
 - [12. Add Product](#add-product-page)
 - [13. Add Membership](#add-membership-page)
 - [14. Add Class](#add-class-page)
@@ -217,13 +217,27 @@ Admin user:
 
 <br>
 
-10. #### Sign In Page
+10. #### Sign Up Page
 
-- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+- TEST 10.1 - _Already have an account?_ link goes to _Sign In_ page - YES
+- TEST 10.2 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if any of the fields is empty - YES
+- TEST 10.3 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'E-mail address'_ entry does not follow the email format (@ missing) - YES
+- TEST 10.4 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'E-mail address'_ and 'E-mail address confirmation' entries are not the same - YES
+- TEST 10.5 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'Password'_ entry is too common (ex.password) - YES
+- TEST 10.6 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'Password'_ and 'Password (again)' entries are not the same - YES
+- TEST 10.7 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if user with the same email address is already registered - YES
+- TEST 10.8 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if user with the same username is already registered - YES
+
+- TEST 10.9 - On 'Submit' ('Sign Up')of the validated _Sign Up Form_ a new user is added to the database - YES
+- TEST 10.10 - On 'Submit' ('Sign Up')of the validated _Sign Up Form_ a new user is added to the database - relevant 'toast' is displayed - YES
+
+
+
+- TEST 10.1 - _Back to Login_ button links to _Sign In_ page - YES
 
 <br>
 
-11. #### Sign Up Page
+11. #### Sign In Page
 
 - TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
 
@@ -260,16 +274,16 @@ Admin user:
 
 - TEST 14.1 - _Add Class Form_ does not validate on 'Submit' ('Add Class') if _'Class Name'_ field is empty - YES
 - TEST 14.2 - _Add Class Form_ does not validate on 'Submit' ('Add Class') if _'Class Time'_ field is empty - YES
-
-- TEST 13.4 - 'Cancel' button links to the _Classes_ page - YES
-- TEST 13.5 - On 'Submit' ('Add Membership') of the validated _Add Membership Form_ a new membership is added to the database - YES
-- TEST 13.6 - On 'Submit' ('Add Membership') of the validated _Add Membership Form_, the user is redirected to the _Membership_ page with the new membership rendered on the page - relevant 'toast' is displayed - YES
+- TEST 14.3 - 'Cancel' button links to the _Classes_ page - YES
+- TEST 14.4 - On 'Submit' ('Add Class') of the validated _Add Class Form_ a new Class is added to the database - YES
+- TEST 14.5 - On 'Submit' ('Add Class') of the validated _Add Class Form_, the user is redirected to the _Classes_ page with the new class rendered on the page (if the total of all classes in database is equal to or less than 48) - relevant 'toast' is displayed - YES
 
 <br>
 
 15. #### Sign out Page
 
-- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+- TEST 15.1 - _Sign Out_ removes user from the session button and redirects to _Home_ page - relevant 'toast' is displayed - YES
+- TEST 15.2 - _Cancel_ button links to _Home_ page - YES
 
 
 
