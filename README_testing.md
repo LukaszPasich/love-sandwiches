@@ -2,11 +2,31 @@
 
 ### Manual Testing
 
-Features Working Correctly (in various screen sizes) Check
+#### Contents
+- [1. Navbar Desktop](#navbar-desktop)
+- [2. Navbar Mobile](#navbar-mobile)
+- [3. Footer](#footer)
+- [4. Home Page](#home-page)
+- [5. About Page](#about-page)
+- [6. Classes Page](#classes-page)
+- [7. Shop Page](#shop-page)
+- [8. Contact Page](#contact-page)
+- [9. Membership Page](#membership-page)
+- [10. Sign In Page](#sign-in-page)
+- [11. Sign Up Page](#sign-up-page)
+- [12. Add Product](#add-product-page)
+- [13. Add Membership](#add-membership-page)
+- [14. Add Class](#add-class-page)
+- [15. Sign Out Page](#sign-out-page)
+
 
 <br>
 
-#### 1. Navbar (Desktop):
+Features Working Correctly (in various screen sizes) Check.
+
+<br>
+
+1. #### Navbar Desktop
 
 Unregistered user:
 
@@ -43,7 +63,7 @@ Admin user:
 
 &nbsp;
 
-#### 2. Navbar (Mobile):
+2. #### Navbar Mobile
 
 Unregistered user:
 - TEST 2.1 - _Anaconda MAA_ logo links to the _Home_ page - YES
@@ -80,7 +100,7 @@ Admin user:
 
 <br>
 
-#### 3. Footer:
+3. #### Footer:
 
 - TEST 3.1 - _Home_ link goes to _Home_ page - YES
 - TEST 3.2 - _About_ link goes to _About_ page - YES
@@ -96,7 +116,7 @@ Admin user:
 
 <br>
 
-#### 4. Home Page:
+4. #### Home Page:
 
 - TEST 4.1 - _Join Our Academy_ button on main banner links to _Membership_ page - YES
 - TEST 4.2 - _Brazilian Jiu-Jitsu_ image links to _Why Brazilian Jiu-Jitsu?_ section in _About_ page - YES
@@ -108,7 +128,7 @@ Admin user:
 
 <br>
 
-#### 5. About Page:
+5. #### About Page:
 
 - TEST 5.1 - _Join Our Academy_ button in _Why Brazilian Jiu-Jitsu?_ section links to _Membership_ page - YES
 - TEST 5.2 - _About our coaches..._ button in _Why Brazilian Jiu-Jitsu?_ section links to _Meet Our Instructors_ section on the same page - YES
@@ -125,7 +145,7 @@ Admin user:
 
 <br>
 
-#### 6. Classes Page:
+6. #### Classes Page:
 
 - TEST 6.1 - _See timetable..._ link in _Kids & Teens Classes_ section links to _Class Timetable_ section on the same page - YES
 - TEST 6.2 - _Join Our Academy_ button in _Kids & Teens Classes_ section links to _Membership_ page - YES
@@ -137,11 +157,11 @@ Admin user:
 Admin user:
 - TEST 6.5 - _Edit_ and _Delete_ buttons appear in each class box in _Class Timetable_ section when admin user is logged in - YES
 - TEST 6.6 - _Edit_ button in each class box in _Class Timetable_ section links to the _Edit Class_ page populated with the corresponding class details - YES
-- TEST 6.6 - _Delete_ button in each class box in _Class Timetable_ section deletes the respective class - YES
+- TEST 6.6 - _Delete_ button in each class box in _Class Timetable_ section deletes the respective class - relevant 'toast' is displayed - YES
 
     <br>
 
-#### 7. Shop Page:
+7. #### Shop Page:
 
 - TEST 7.1 - _'Search our site'_ box empty entry reloads the page with all products - relevant 'toast' is displayed - YES
 - TEST 7.2 - _'Search our site'_ search that does not appear in the database reloads the page with no products - relevant 'toast' is displayed - YES
@@ -164,11 +184,73 @@ Admin user:
 Admin user:
 - TEST 7.16 - _Edit_ and _Delete_ buttons appear underneath each product when admin user is logged in - YES
 - TEST 7.17 - _Edit_ button underneath each product links to the _Edit Product_ page populated with the corresponding product details - YES
-- TEST 7.18 - _Delete_ button underneath each product deletes the respective product - YES
+- TEST 7.18 - _Delete_ button underneath each product deletes the respective product - relevant 'toast' is displayed - YES
 
 <br>
 
-#### 8. Contact Page:
+8. #### Contact Page:
 
-- TEST 8.1 - _'Search our site'_ box empty entry reloads the page with all products - relevant 'toast' is displayed - YES
-    
+- TEST 8.1 - _Contact Form_ does not validate on 'Submit' if _'Name'_ field is empty - YES
+- TEST 8.2 - _Contact Form_ does not validate on 'Submit' if _'E-mail'_ field is empty - YES
+- TEST 8.3 - _Contact Form_ does not validate on 'Submit' if _'E-mail'_ entry does not follow the email format (@ missing) - YES
+- TEST 8.4 - _Contact Form_ does not validate on 'Submit' if _'Message'_ field is empty - YES
+- TEST 8.5 - _Contact Form_ is sent successfully if form valid - relevant 'toast' is displayed - YES
+- TEST 8.6 - Message from _Contact Form_ is sent to default email - EmailJS connected correctly - YES
+
+<br>
+
+9. #### Membership Page
+
+- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+- TEST 9.2 - _See Timetables here_ link goes to _Class Timetable_ of _Classes Page_ - YES
+
+
+<br>
+
+Admin user:
+- TEST 9.3 - _Edit_ and _Delete_ buttons appear underneath each membership box when admin user is logged in - YES
+- TEST 9.5 - _Edit_ button underneath each membership links to the _Edit Membership_ page populated with the corresponding membership details - YES
+- TEST 9.6 - _Delete_ button underneath each membership box deletes the respective membership - relevant 'toast' is displayed - YES
+
+<br>
+
+10. #### Sign In Page
+
+- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+
+<br>
+
+11. #### Sign Up Page
+
+- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+
+<br>
+
+12. #### Add Product Page
+
+- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+
+<br>
+
+13. #### Add Membership Page
+
+- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+
+<br>
+
+14. #### Add Class Page
+
+- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+
+<br>
+
+15. #### Sign out Page
+
+- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+
+
+
+
+
+
+[Back to top](#contents)
