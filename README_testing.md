@@ -223,23 +223,26 @@ Admin user:
 - TEST 10.2 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if any of the fields is empty - YES
 - TEST 10.3 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'E-mail address'_ entry does not follow the email format (@ missing) - YES
 - TEST 10.4 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'E-mail address'_ and 'E-mail address confirmation' entries are not the same - YES
-- TEST 10.5 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'Password'_ entry is too common (ex.password) - YES
+- TEST 10.5 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'Password'_ entry is too common (ex.password) or too short - YES
 - TEST 10.6 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if _'Password'_ and 'Password (again)' entries are not the same - YES
 - TEST 10.7 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if user with the same email address is already registered - YES
 - TEST 10.8 - _Sign Up Form_ does not validate on 'Submit' ('Sign Up') if user with the same username is already registered - YES
-
-- TEST 10.9 - On 'Submit' ('Sign Up')of the validated _Sign Up Form_ a new user is added to the database - YES
-- TEST 10.10 - On 'Submit' ('Sign Up')of the validated _Sign Up Form_ a new user is added to the database - relevant 'toast' is displayed - YES
-
-
-
-- TEST 10.1 - _Back to Login_ button links to _Sign In_ page - YES
+- TEST 10.9 - On 'Submit' ('Sign Up') of the validated _Sign Up Form_ the user is redirected to the _Verify Your E-mail Address_ page - relevant 'toast' is displayed - YES
+- TEST 10.10 - On 'Submit' ('Sign Up') of the validated _Sign Up Form_ the link to verify e-mail is sent to the submited e-mail address - YES
+- TEST 10.11 - Verify email address link sent to email works correctly and redirects user to _Confirm E-mail Address_ page - YES
+- TEST 10.12 - Confirming email address on _Confirm E-mail Address_ page takes user to _Sig In_ page - YES
+- TEST 10.13 - Confirming email address on _Confirm E-mail Address_ page creates new user in database - YES
+- TEST 10.14 - _Back to Login_ button links to _Sign In_ page - YES
 
 <br>
 
 11. #### Sign In Page
 
-- TEST 9.1 - _Get Started_ button links to _Contact Page_ - YES
+- TEST 11.1 - _If you don't have account yet..._ link goes to _Sign Up_ page - YES
+- TEST 11.2 - _Sign In Form_ displays Allauth message: 'The username and/or password you specified are not correct.' on 'Submit' ('Sign In'), if either _'Username'_ or _'Password'_ field entries don't match any user saved in the database - YES
+- TEST 11.3 - On 'Submit' ('Sign In') of the validated _Sign In Form_ the user is saved in the session cookie - YES
+- TEST 11.4 - _Home_ button links to _Home_ page - YES
+- TEST 11.5 - _Forgot Password_ link goes to _Password Reset_ page - YES
 
 <br>
 
